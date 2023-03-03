@@ -46,3 +46,4 @@ fi
 createPlaylist
 find "$playlists" -type f -empty -delete
 echo "Check>> $playlists"
+tree "$playlists"
